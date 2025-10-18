@@ -64,9 +64,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        {/* Iamge Content */}
         <div className="mx-auto hidden xl:block">
-            <Image src="/images/hero.png"  alt="image" width={500} height={500}/>
+          <Image src="/images/hero.png" alt="image" width={500} height={500} />
         </div>
       </div>
     </div>

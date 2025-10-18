@@ -29,7 +29,7 @@ const Navbar = ({ openNav }: Props) => {
     <div
       className={`transition-all ${
         navBg ? "bg-white dark:bg-gray-900 shadow-md" : "fixed"
-      } duration-200 h-[12vh] fixed w-full`}
+      } duration-200 h-[12vh] fixed w-full z-50`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         <div className="flex items-center space-x-2">
