@@ -8,22 +8,22 @@ const Feature = () => {
         Meet our Quality Features
       </h1>
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
             <FeatureCard icon="/images/f1.svg" title="Analytics Business"/>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
             <FeatureCard icon="/images/f2.svg" title="Wide Coverage Map"/>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
             <FeatureCard icon="/images/f3.svg" title="Artificial Intelligence"/>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
             <FeatureCard icon="/images/f4.svg" title="Largest People"/>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
             <FeatureCard icon="/images/f4.svg" title="Trusted & Secure"/>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500">
             <FeatureCard icon="/images/f6.svg" title="Mobile Apps"/>
         </div>
       </div>

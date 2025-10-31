@@ -11,6 +11,7 @@ const MobileApp = () => {
           width={800}
           height={800}
           className="object-cover"
+          data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="0"
         />
         <div>
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-8 md:leading-12">

@@ -8,7 +8,7 @@ const About = () => {
         <div>
           <Image src="/images/a.png" alt="images" width={800} height={800} />
         </div>
-        <div>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-8 md:leading-12">
             We deliver our products as fast as superman can do
           </h1>

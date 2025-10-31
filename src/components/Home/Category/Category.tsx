@@ -43,7 +43,9 @@ const Category = () => {
         <div className="flex flex-wrap gap-4 justify-center">
             {categories.map((category, i) => {
                 return (
-                    <span key={i} className="px-6 py-3 rounded-full cursor-pointer hover:bg-emerald-600 hover:text-white transition-all duration-300 bg-gray-100 dark:bg-gray-800 dark:text-white text-gray-900 font-semibold text-lg">
+                    <span
+                      data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay={i * 100} 
+                      key={i} className="px-6 py-3 rounded-full cursor-pointer hover:bg-emerald-600 hover:text-white transition-all duration-300 bg-gray-100 dark:bg-gray-800 dark:text-white text-gray-900 font-semibold text-lg">
                         {category.category}
                     </span>
                 )

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="relative w-full h-screen flex justify-center flex-col">
       <div className="w-[90%] md:w-[80%] mx-auto grid items-center grdi-cols-1 xl:grid-cols-2 gap-10">
-        <div>
+        <div data-aos="fade-up">
           <h1 className="text-3xl md:text-4xl lg:text-6xl mt-6 mb-6 font-extrabold leading-[2.5rem] md:leading-[4rem]">
             Your favourite food,{" "}
             <span className="text-pink-600">delivered</span> your home
@@ -64,7 +64,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mx-auto hidden xl:block">
+        <div data-aos="fade-left" data-aos-delay="150" className="mx-auto hidden xl:block">
           <Image src="/images/hero.png" alt="image" width={500} height={500} />
         </div>
       </div>
